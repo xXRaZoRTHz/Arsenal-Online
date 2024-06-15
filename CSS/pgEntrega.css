@@ -1,0 +1,110 @@
+:root{
+    --yellowColor:#ECD181;
+    --bgColor:#D8D6D6;
+    --textGreenColor: #014B2B;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* INICIO DO HEADER  */
+header{
+    background-color: black;
+    height: 240px;
+    color:var(--yellowColor) ;
+    justify-content: space-between;
+}
+.headertop{
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    height: 120px;
+    margin-left: 210px;
+    margin-top: 10px;
+   
+}
+header h1{
+    margin-left: 200px;
+    padding: 0;
+}
+.titulo{
+    margin-left: 22px;
+    padding: 0;
+}
+header a{
+    text-decoration: none;
+    color:var(--yellowColor) ;
+}
+header form{
+    border: 2px solid red;
+    margin-top: 50px;
+    margin-right: 150px;
+    display: flex;
+    margin-left: -140px;
+}
+/* setar o tamanho da barra */
+.formPesquisar{
+    width: 600px;
+    background-color: black;
+    
+
+}
+.botao{
+    width:50px;
+    background-image:url(../IMG/HeaderIcons/image1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    border: 2px solid red;
+    background-color:red;
+    color: black;
+}
+input {
+    width: 100%;
+    height: 40px;
+    color:white;
+    font-size: 1.2rem;
+}
+
+
+.carrinho{
+    height: 60px;
+    width: 50%px;
+    padding:0;
+    margin-top:-82px;
+    margin-left: -250px;
+    margin-bottom: 3px;
+    
+}
+.usuario{
+    height: 55px;
+    width: 50%px;
+    padding: 0;
+    margin-top: 40px;
+    margin-left: -350px;
+    margin-bottom: 5px;
+}
+.icons img{
+    display: flex;
+}
+.carrinhoa{
+    display: inline-block;
+    margin-left: -253px;
+}
+.usuarioa{
+    display: inline-block;
+    margin-left: -345px;
+}
+header nav{
+    display:inline-flex;
+    margin-right: 50px;
+    margin-left: 30px;
+}
+.navs{
+    margin-left: 460px;
+    margin-top: -20px;
+}
+
+/* FINAL DO HEADER  */
