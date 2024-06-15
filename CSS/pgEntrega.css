@@ -119,9 +119,22 @@ hr {
             background-color: #000000;
             height: 1px; 
             border: none;
-            margin-right: 300px;
             
 }
+
+.titulo-entrega hr{
+    margin-right: 440px;
+}
+
+.subtitulo-entrega hr{
+    margin-right: 590px;
+}
+
+.subtitulo2-entrega hr{
+    margin-right: 390px;
+}
+
+
 .texto-Entrega {
     margin-left: 300px;
     margin-right: 300px;
