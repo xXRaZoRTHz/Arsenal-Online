@@ -8,6 +8,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* INICIO DO HEADER  */
 header{
     background-color: black;
@@ -108,3 +109,20 @@ header nav{
 }
 
 /* FINAL DO HEADER  */
+/* Começo texto main */
+
+main {
+    background-color: var(--bgColor);
+}
+hr {
+    color: #000000;
+            background-color: #000000;
+            height: 1px; 
+            border: none;
+            margin-right: 300px;
+            
+}
+.texto-Entrega {
+    margin-left: 300px;
+    margin-right: 300px;
+}
