@@ -1,6 +1,7 @@
 :root{
     --yellowColor:#ECD181;
     --bgColor:#D8D6D6;
+    --textGreenColor: #014B2B;
 }
 *{
     padding: 0;
@@ -127,27 +128,125 @@ body{
 /* INICIO DE CATEGORIAS */
 .categoriaTitle{
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 100px;
     font-size: 2rem;
 }
-.linha {
+.linhaCat {
     display:block; 
     padding:0; 
     margin: 10px 0; 
-    width:14%; 
+    width:17%; 
     height:2px; 
     background-color:black}
 .bgcategoria{
     margin-top: 20px;
     width: 100%;
-    height: 200px;
+    height: 230px;
 
 }
 .iconsCat img{
     height: 150px;
     margin-left: 190px;
     margin-top: -200px;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
 }
+.linkCat a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 220px;
+    margin-top: -100px;
+}
+.linkCat a:nth-child(2){
+    margin-left: 260px;
+    
+}
+.linkCat a:nth-child(4){
+    margin-left: 210px;
+}
+.linkCat{
+    display: flex;
 
+}
 /* FINAL DE CATEGORIAS */
+/* INICIO DE DESTAQUE */
+    .destaqueTitle{
+        margin-top: 10px;
+        margin-left: 100px;
+        font-size: 2rem;
+    }
+    .linhaDest {
+        display:block; 
+        padding:0; 
+        margin: 10px 0; 
+        width:21%; 
+        height:2px; 
+        background-color:black
+    }
+    .imgDest{
+        display: flex;
+        margin-left: 100px;
+    }
+    .imgSmallBox{
+        height: 225px;
+        margin-left: 50px;
+        margin-bottom: 30px;
+    }
+    .layoutitem{
+        height:240px;
+        width: 278px;
+        margin-left: 50px;
+        
+    }
+    .imgBigBox{
+        height: 500px;
+    }
+    .textDest1{
+        position: absolute;
+        display: block;
+        padding: 0 15px;
+        background-color: var(--textGreenColor);
+        border-radius: 30px;
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin-top: -160px;
+        margin-left: 650px;   
+    }
+    .textDest1 a{
+        text-decoration: none;
+        color: white;
+    }
+    .textDest2 a{
+        text-decoration: none;
+        color: white;
+    }
+    .textDest3 a{
+        text-decoration: none;
+        color: white;
+    }
+    .textDest2{
+        position: absolute;
+        padding: 0 15px;
+        display: block;
+        background-color: var(--textGreenColor) ;
+        color: white;
+        border-radius: 30px;
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin-top: -360px;
+        margin-left: 1160px;
+    }
+    .textDest3{
+        position: absolute;
+        padding: 0 15px;
+        display: block;
+        background-color: var(--textGreenColor) ;
+        color: white;
+        border-radius: 30px;
+        font-size: 1.6rem;
+        font-weight: 300;
+        margin-top: -90px;
+        margin-left: 1160px;
+    }
+
+/* FINAL DE DESTAQUE */
