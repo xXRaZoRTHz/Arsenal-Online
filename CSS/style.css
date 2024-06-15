@@ -27,11 +27,17 @@ header{
 }
 header img{
     height: 120px;
-    padding-left: 210px;
-    padding-top: 10px;
+    margin-left: 210px;
+    margin-top: 10px;
+   
 }
 header h1{
-    padding-left: 190px;
+    margin-left: 200px;
+    padding 0;
+}
+.titulo{
+    margin-left: 22px;
+    padding 0;
 }
 header a{
     text-decoration: none;
@@ -68,12 +74,8 @@ input {
     color:white;
     font-size: 1.2rem;
 }
-.logo{
-    
-}
-.titulo{
-    padding-left: 15px;
-}
+
+
 .carrinho{
     height: 60px;
     width: 50%px;
@@ -111,6 +113,11 @@ header nav{
     margin-left: 460px;
     margin-top: -20px;
 }
-    
 
 /* FINAL DO HEADER  */
+/* INICIO DO BANNER */
+.banner{
+    height: 400px;
+    width: 100%;
+}
+/* FINAL DO BANNER */
