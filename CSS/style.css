@@ -1,5 +1,6 @@
 :root{
     --yellowColor:#ECD181;
+    --bgColor:#D8D6D6;
 }
 *{
     padding: 0;
@@ -33,18 +34,17 @@ header img{
 }
 header h1{
     margin-left: 200px;
-    padding 0;
+    padding: 0;
 }
 .titulo{
     margin-left: 22px;
-    padding 0;
+    padding: 0;
 }
 header a{
     text-decoration: none;
     color:var(--yellowColor) ;
 }
 header form{
-    margin-left: ;
     border: 2px solid red;
     margin-top: 50px;
     margin-right: 150px;
@@ -60,7 +60,7 @@ header form{
 }
 .botao{
     width:50px;
-    background-image:url(../IMG/image1.png);
+    background-image:url(../IMG/HeaderIcons/image1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 30px;
@@ -121,3 +121,33 @@ header nav{
     width: 100%;
 }
 /* FINAL DO BANNER */
+body{
+    background-color: var(--bgColor);
+}
+/* INICIO DE CATEGORIAS */
+.categoriaTitle{
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 2rem;
+}
+.linha {
+    display:block; 
+    padding:0; 
+    margin: 10px 0; 
+    width:14%; 
+    height:2px; 
+    background-color:black}
+.bgcategoria{
+    margin-top: 20px;
+    width: 100%;
+    height: 200px;
+
+}
+.iconsCat img{
+    height: 150px;
+    margin-left: 190px;
+    margin-top: -200px;
+    margin-bottom: 50px;
+}
+
+/* FINAL DE CATEGORIAS */
