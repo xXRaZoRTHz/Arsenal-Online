@@ -362,7 +362,7 @@ body{
     place-items: center;
 }
 .cartaoProImg{
-    height: auto;
+    height: 190px;
     object-fit: cover;
     width: 250px;
     margin-bottom: 20px;
