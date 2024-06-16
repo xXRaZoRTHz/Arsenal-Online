@@ -139,3 +139,27 @@ hr {
     margin-left: 300px;
     margin-right: 300px;
 }
+ .linhaTitulo-entrega {
+    display:block; 
+    padding:0; 
+    margin: 10px 0; 
+    width:35%; 
+    height:2px; 
+    background-color:black
+}
+.linhaSubtitulo-entrega {
+    display:block; 
+    padding:0; 
+    margin: 10px 0; 
+    width:20%; 
+    height:2px; 
+    background-color:black
+}
+.linhaSubtitulo2-entrega {
+    display:block; 
+    padding:0; 
+    margin: 10px 0; 
+    width:43%; 
+    height:2px; 
+    background-color:black
+}
