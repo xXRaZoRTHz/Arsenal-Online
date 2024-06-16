@@ -383,3 +383,113 @@ body{
     padding-left:30px;
 }
 /* FINAL DE PROMOÇÕES */
+/* INICIO DO FOOTER */
+.footerAll{
+    background-color: black;
+    width:100%;
+    color: white;
+    font-weight: 300;
+    margin-top:50px ;
+    display: flex;
+}
+footer h4{
+    font-size: 1.2rem;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.linhaInfo {
+    display:block; 
+    padding:0; 
+    margin: 10px 0; 
+    width:200px; 
+    height:2px; 
+    background-color:white;
+    margin-left: 5px;
+}
+.infoTitle{
+    display: flex;
+    margin-left: -15px;
+    align-items: center;
+    padding: 10px;
+
+}
+.footerInfo{
+    margin-left: 50px;
+}
+.footerInfo a{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.footerInfo img{
+    margin-top: 30px;
+    height: 80px;
+}
+.footerCont{
+    margin-left: 200px;
+}
+.linhaCont {
+    display:block; 
+    padding:0; 
+    margin: 10px 0; 
+    width:200px; 
+    height:2px; 
+    background-color:white;
+    margin-left: 5px;
+}
+
+.contTitle{
+    display: flex;
+    margin-left: -30px;
+    align-items: center;
+    padding: 10px;
+
+}
+.linhaCont2 {
+    display:block; 
+    padding:0; 
+    margin: 10px 0; 
+    width:305px; 
+    height:2px; 
+    background-color:white;
+    margin-left: -20px;
+    
+}
+.footerCont i{
+    margin-left: -15px;
+    color: red;
+}
+.footerMet{
+    margin-left: 180px;
+}
+.metTitle{
+    display: flex;
+    margin-left: -30px;
+    align-items: center;
+    padding: 10px;
+}
+.linhaMet{
+    display:block; 
+    padding:0; 
+    margin: 10px 0; 
+    width:240px; 
+    height:2px; 
+    background-color:white;
+    margin-left: 5px;
+}
+.footerMet img{
+height: 140px;
+margin-left: 50px;
+}
+.copyr{
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding-left: 480px;
+    padding-bottom: 10px;
+    font-weight: 200;
+    font-size: 1.1rem;
+}
+
+/* FINAL DO FOOTER */
