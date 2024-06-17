@@ -2,13 +2,24 @@
     --yellowColor:#ECD181;
     --bgColor:#D8D6D6;
     --textGreenColor: #014B2B;
+    --price:#158812;
+    --NameItem:red;
+    --ver:#D9D9D9;
+    --priceCut:#8FD08E;
 }
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
 /* INICIO DO HEADER  */
 header{
     background-color: black;
