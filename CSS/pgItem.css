@@ -120,3 +120,6 @@ header nav{
 }
 
 /* FINAL DO HEADER  */
+body{
+    background-color: var(--bgColor);
+}

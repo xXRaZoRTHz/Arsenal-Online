@@ -128,6 +128,16 @@ header nav{
 /* FINAL DO BANNER */
 body{
     background-color: var(--bgColor);
+    margin: 0 auto;
+}
+main{
+    margin: 0 auto;
+    width: 70%;
+    margin-bottom: 100px;
+    box-shadow: 0px 19px 93px -2px rgba(0,0,0,1);
+    -webkit-box-shadow: 0px 19px 93px -2px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 19px 93px -2px rgba(0,0,0,1);
+    border: 1px solid black;
 }
 /* INICIO DE CATEGORIAS */
 .categoriaTitle{
@@ -383,7 +393,20 @@ body{
     padding-left:30px;
 }
 /* FINAL DE PROMOÇÕES */
+/* INICIO DE LOJA FÍSICA */
+.loja{
+margin: 200px auto;
+}
+.loja img{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+/* FINAL DE LOJA FÍSICA */
 /* INICIO DO FOOTER */
+footer{
+    
+}
 .footerAll{
     background-color: black;
     width:100%;
@@ -391,6 +414,12 @@ body{
     font-weight: 300;
     margin-top:50px ;
     display: flex;
+    padding-top: 10px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center; 
+
 }
 footer h4{
     font-size: 1.2rem;
@@ -483,13 +512,14 @@ height: 140px;
 margin-left: 50px;
 }
 .copyr{
+    display: flex;
     background-color: black;
     color: white;
     width: 100%;
-    padding-left: 480px;
-    padding-bottom: 10px;
     font-weight: 200;
     font-size: 1.1rem;
+    justify-content: center;
+    padding-bottom: 20px;
 }
 
 /* FINAL DO FOOTER */
