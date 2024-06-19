@@ -21,6 +21,11 @@
       "slnt" 0;
   }
 /* INICIO DO HEADER  */
+.logo{
+    display: grid;
+    justify-content: center;
+    margin-left: 210px;
+}
 header{
     background-color: black;
     height: 240px;
@@ -33,13 +38,12 @@ header{
 }
 header img{
     height: 120px;
-    margin-left: 210px;
     margin-top: 10px;
+    margin-left: 15px;
    
 }
 header h1{
-    margin-left: 200px;
-    padding: 0;
+
 }
 .titulo{
     margin-left: 22px;
@@ -72,6 +76,7 @@ header form{
     border: 2px solid red;
     background-color:red;
     color: black;
+    cursor: pointer;
 }
 input {
     width: 100%;
@@ -132,24 +137,24 @@ body{
 }
 main{
     margin: 0 auto;
-    width: 70%;
-    margin-bottom: 100px;
+    width: 80%;
     box-shadow: 0px 19px 93px -2px rgba(0,0,0,1);
     -webkit-box-shadow: 0px 19px 93px -2px rgba(0,0,0,1);
     -moz-box-shadow: 0px 19px 93px -2px rgba(0,0,0,1);
-    border: 1px solid black;
+    margin-top: -10px;
 }
 /* INICIO DE CATEGORIAS */
 .categoriaTitle{
     margin-top: 10px;
-    margin-left: 100px;
+    padding-top: 10px;
+    margin-left: 50px;
     font-size: 2rem;
 }
 .linhaCat {
     display:block; 
     padding:0; 
     margin: 10px 0; 
-    width:17%; 
+    width:20%; 
     height:2px; 
     background-color:black}
 .bgcategoria{
@@ -159,24 +164,26 @@ main{
 
 }
 .iconsCat img{
-    height: 150px;
-    margin-left: 190px;
+    height: 100px;
+    margin-left: 150px;
     margin-top: -200px;
     margin-bottom: 100px;
 }
 .linkCat a{
     text-decoration: none;
+    margin-left: 160px;
     color: white;
     font-size: 1.5rem;
-    margin-left: 220px;
     margin-top: -100px;
 }
 .linkCat a:nth-child(2){
-    margin-left: 260px;
-    
+    margin-left: 165px;
+}
+.linkCat a:nth-child(3){
+    margin-left: 130px;
 }
 .linkCat a:nth-child(4){
-    margin-left: 210px;
+    margin-left: 120px;
 }
 .linkCat{
     display: flex;
@@ -184,96 +191,102 @@ main{
 }
 /* FINAL DE CATEGORIAS */
 /* INICIO DE DESTAQUE */
-    .destaqueTitle{
-        margin-top: 10px;
-        margin-left: 100px;
-        font-size: 2rem;
-    }
-    .linhaDest {
-        display:block; 
-        padding:0; 
-        margin: 10px 0; 
-        width:21%; 
-        height:2px; 
-        background-color:black
-    }
-    .imgDest{
-        display: flex;
-        margin-left: 100px;
-    }
-    .imgSmallBox{
-        height: 225px;
-        margin-left: 50px;
-        margin-bottom: 30px;
-    }
-    .layoutitem{
-        height:240px;
-        width: 278px;
-        margin-left: 50px;
-        
-    }
-    .imgBigBox{
-        height: 500px;
-    }
-    .textDest1{
-        position: absolute;
-        display: block;
-        padding: 0 15px;
-        background-color: var(--textGreenColor);
-        border-radius: 30px;
-        font-size: 1.6rem;
-        font-weight: 300;
-        margin-top: -160px;
-        margin-left: 650px;   
-    }
-    .textDest1 a{
-        text-decoration: none;
-        color: white;
-    }
-    .textDest2 a{
-        text-decoration: none;
-        color: white;
-    }
-    .textDest3 a{
-        text-decoration: none;
-        color: white;
-    }
-    .textDest2{
-        position: absolute;
-        padding: 0 15px;
-        display: block;
-        background-color: var(--textGreenColor) ;
-        color: white;
-        border-radius: 30px;
-        font-size: 1.6rem;
-        font-weight: 300;
-        margin-top: -360px;
-        margin-left: 1160px;
-    }
-    .textDest3{
-        position: absolute;
-        padding: 0 15px;
-        display: block;
-        background-color: var(--textGreenColor) ;
-        color: white;
-        border-radius: 30px;
-        font-size: 1.6rem;
-        font-weight: 300;
-        margin-top: -90px;
-        margin-left: 1160px;
-    }
+.destaqueTitle{
+    margin-top: 10px;
+    margin-left: 50px;
+    font-size: 2rem;
+}
+.linhaDest {
+    display:block; 
+    padding:0; 
+    margin: 10px 0; 
+    width:24%; 
+    height:2px; 
+    background-color:black
+}
+
+.imgDest{
+    display: flex;
+    margin-left: 50px;
+}
+.smallimgs {
+    display: block;
+    margin-left: 50px;
+}
+.imgSmallBox{
+    display: block;
+    height: 200px;
+    margin-bottom: 30px;
+}
+.layoutitem{
+
+    height:195px;
+    width: 250px;
+    
+}
+.imgBigBox{
+    height: 425px;
+}
+.textDest1{
+    position: absolute;
+    display: block;
+    padding: 0 20px;
+    background-color: var(--textGreenColor);
+    border-radius: 30px;
+    font-size: 1.4rem;
+    font-weight: 300;
+    margin-top: -150px;
+    margin-left: 520px;   
+}
+.textDest1 a{
+    text-decoration: none;
+    color: white;
+}
+.textDest2 a{
+    text-decoration: none;
+    color: white;
+}
+.textDest3 a{
+    text-decoration: none;
+    color: white;
+}
+.textDest2{
+    position: absolute;
+    padding: 0 20px;
+    display: block;
+    background-color: var(--textGreenColor) ;
+    color: white;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: -300px;
+    margin-left: 940px;
+}
+.textDest3{
+    position: absolute;
+    padding: 0 20px;
+    display: block;
+    background-color: var(--textGreenColor) ;
+    color: white;
+    border-radius: 30px;
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin-top: -90px;
+    margin-left: 940px;
+}
+
 /* FINAL DE DESTAQUE */
 /* INICIO DE NOVIDADES */
 .novTitle{
     margin-top: 30px;
-    margin-left: 100px;
+    margin-left: 50px;
     font-size: 2rem;
 }
 .linhaNov {
     display:block; 
     padding:0; 
     margin: 10px 0; 
-    width:18%; 
+    width:20%; 
     height:2px; 
     background-color:black
 }
@@ -284,7 +297,7 @@ main{
 .cartao{
     color: var(--NameItem);
     display: grid;
-    padding: 30px;
+    padding: 40px;
     background-color: white;
     margin-left: 50px;
     border: 1px solid black;
@@ -292,9 +305,9 @@ main{
     place-items: center;
 }
 .cartao img{
-    height: 190px;
+    height: 120px;
     object-fit: cover;
-    width: 250px;
+    width: 160px;
     margin-bottom: 20px;
 }
 .cartao span{
@@ -306,7 +319,7 @@ main{
     text-decoration: none;
     color: black;
     padding: 10px;
-    width: 90px;
+    width: 85px;
     background-color:var(--ver);
     margin-top: 20px;
     margin-bottom: -20px;
@@ -316,7 +329,7 @@ main{
 /* INICIO DE PROMOÇÕES */
 .proTitle{
     margin-top: 50px;
-    margin-left: 100px;
+    margin-left: 50px;
     font-size: 2rem;
 }
 .linhaPro {
@@ -333,27 +346,27 @@ main{
     margin-top: 50px;
 }
 .promoIcon10{
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     margin-right:190px;
     margin-left: -30px;
-    margin-top: -25px;
+    margin-top: -35px;
     margin-bottom: 10px;
 }
 .promoIcon25{
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     margin-right:190px;
     margin-left: -30px;
-    margin-top: -25px;
+    margin-top: -35px;
     margin-bottom: 10px;
 }
 .promoIcon50{
-    height: 70px;
-    width: 70px;
+    height: 50px;
+    width: 50px;
     margin-right:190px;
     margin-left: -30px;
-    margin-top: -25px;
+    margin-top: -35px;
     margin-bottom: 10px;
 }
 .priceCut{
@@ -364,7 +377,7 @@ main{
 .cartaoPro{
     color: var(--NameItem);
     display: grid;
-    padding: 30px;
+    padding: 40px;
     background-color: white;
     margin-left: 50px;
     border: 1px solid black;
@@ -372,9 +385,9 @@ main{
     place-items: center;
 }
 .cartaoProImg{
-    height: 190px;
+    height: 120px;
     object-fit: cover;
-    width: 250px;
+    width: 160px;
     margin-bottom: 20px;
 }
 .cartaoPro span{
@@ -412,7 +425,7 @@ footer{
     width:100%;
     color: white;
     font-weight: 300;
-    margin-top:50px ;
+
     display: flex;
     padding-top: 10px;
     align-items: center;
