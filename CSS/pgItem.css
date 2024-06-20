@@ -23,12 +23,13 @@
   }
   main{
     margin: 0 auto;
-    width: 70%;
-    margin-bottom: 100px;
+    padding-top: 100px;
+    width: 80%;
     box-shadow: 0px 19px 93px -2px rgba(0,0,0,1);
     -webkit-box-shadow: 0px 19px 93px -2px rgba(0,0,0,1);
     -moz-box-shadow: 0px 19px 93px -2px rgba(0,0,0,1);
     border: 1px solid black;
+    height: 1750px;
 }
   /* INICIO DO HEADER  */
   .logo{
@@ -36,11 +37,16 @@
     justify-content: center;
     margin-left: 210px;
 }
+html{
+    scroll-behavior: smooth;
+}
 header{
     background-color: black;
     height: 240px;
     color:var(--yellowColor) ;
     justify-content: space-between;
+    position: sticky;
+    top: 0;
 }
 .headertop{
     display: flex;
@@ -51,9 +57,6 @@ header img{
     margin-top: 10px;
     margin-left: 15px;
    
-}
-header h1{
-
 }
 .titulo{
     margin-left: 22px;
@@ -135,21 +138,33 @@ header nav{
 }
 
 /* FINAL DO HEADER  */
+.bottton{
+    font-size: 2rem;
+    text-decoration: none;
+    color: red;
+    position: fixed;
+    right: 20px;
+    bottom:30px;   
+}
 body{
     background-color: var(--bgColor);
     margin: 0 auto;
 }
-main{
-    margin: 0 auto;
-    width: 80%;
-    box-shadow: 0px 19px 93px -2px rgba(0,0,0,1);
-    -webkit-box-shadow: 0px 19px 93px -2px rgba(0,0,0,1);
-    -moz-box-shadow: 0px 19px 93px -2px rgba(0,0,0,1);
-    margin-top: -10px;
-}
-.produto {
+.produtoImagens{
     display: flex;
     justify-content: center;
+}
+ 
+.produtoImagens img {
+    opacity: 1;
+    transition: transform 0.5s, opacity 0.5s;
+  }
+.produtoImagens img:hover {
+    opacity: 1;
+    transform: scale(1.5);
+  }
+
+.produto {
     background-color: var(--itembg);
     padding: 20px;
     margin-top: -10px;
@@ -221,3 +236,235 @@ main{
 .botaoCarrinho:hover {
     background-color: #45a049;
 }
+.maisInfo{
+    background-color: var(--ver);
+    width: 90%;
+    margin: 20px auto;
+    margin-top: 70px;
+}
+.maisInfo span{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.maisInfo p{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 40px;
+}
+.descricao{
+    display: flex;
+    align-items: center;
+}
+.fichaInfo {
+    margin-top: 10px;
+}
+.fichaInfo p{
+    margin-top: 25px;
+    margin-left: -950px;
+    line-height: 5px;
+}
+
+.fichaItens{
+    background-color: var(--ver);
+    width: 90%;
+    margin: 50px auto;
+}
+.fichaItens span{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.fichaItens p{
+
+    margin-left: 40px;
+}
+.linhaDesc {
+    display:block; 
+    padding:0; 
+    margin: 10px auto; 
+    width:95%; 
+    height:2px; 
+    background-color:black}
+.linha-vertical {
+    position: absolute;
+    display: block;
+    height: 165px;
+    border-left: 2px solid;
+    margin-left: 150px;
+    margin-top: 12px;
+    }    
+    .cartoes{
+        display: flex;
+        font-weight: 400;
+    }
+    .cartoes img {
+        opacity: 1;
+        transition: transform 0.5s, opacity 0.5s;
+      }
+    .cartoes img:hover {
+        opacity: 1;
+        transform: scale(1.5);
+      }
+    .cartao{
+        color: var(--NameItem);
+        display: grid;
+        padding: 40px;
+        background-color: white;
+        margin-left: 50px;
+        border: 1px solid black;
+        margin-top: 50px;
+        place-items: center;
+    }
+    .cartao img{
+        height: 120px;
+        object-fit: cover;
+        width: 160px;
+        margin-bottom: 20px;
+    }
+    .cartao span{
+        color: var(--price);
+        margin-top: 50px;
+    }
+    .cartao a{
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        width: 85px;
+        background-color:var(--ver);
+        margin-top: 20px;
+        margin-bottom: -20px;
+        padding-left:30px;
+    }
+    .prodTitle{
+        margin-top: 30px;
+        margin-left: 50px;
+        font-size: 2rem;
+    }
+    .linhaProd {
+        display:block; 
+        padding:0; 
+        margin: 10px 0; 
+        width:43%; 
+        height:2px; 
+        background-color:black
+    }
+    /* INICIO DO FOOTER */
+.footerAll{
+    background-color: black;
+    width:100%;
+    color: white;
+    font-weight: 300;
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center; 
+
+}
+footer h4{
+    font-size: 1.2rem;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.linhaInfo {
+    display:block; 
+    padding:0; 
+    margin: 10px 0; 
+    width:200px; 
+    height:2px; 
+    background-color:white;
+    margin-left: 5px;
+}
+.infoTitle{
+    display: flex;
+    margin-left: -15px;
+    align-items: center;
+    padding: 10px;
+
+}
+.footerInfo{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.footerInfo a{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.footerInfo img{
+    margin-top: 30px;
+    height: 80px;
+}
+.footerCont{
+    margin-left: 200px;
+}
+.linhaCont {
+    display:block; 
+    padding:0; 
+    margin: 10px 0; 
+    width:200px; 
+    height:2px; 
+    background-color:white;
+    margin-left: 5px;
+}
+
+.contTitle{
+    display: flex;
+    margin-top: -25px;
+    margin-left: -30px;
+    align-items: center;
+    padding: 10px;
+
+}
+.linhaCont2 {
+    display:block; 
+    padding:0; 
+    margin: 10px 0; 
+    width:305px; 
+    height:2px; 
+    background-color:white;
+    margin-left: -20px;
+    
+}
+.footerCont i{
+    margin-left: -15px;
+    color: red;
+}
+.footerMet{
+    margin-left: 180px;
+}
+.metTitle{
+    display: flex;
+    margin-top: -25px;
+    margin-left: -30px;
+    align-items: center;
+    padding: 10px;
+}
+.linhaMet{
+    display:block; 
+    padding:0; 
+    margin: 10px 0; 
+    width:240px; 
+    height:2px; 
+    background-color:white;
+    margin-left: 5px;
+}
+.footerMet img{
+height: 140px;
+margin-left: 50px;
+}
+.copyr{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-weight: 200;
+    font-size: 1.1rem;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+/* FINAL DO FOOTER */
