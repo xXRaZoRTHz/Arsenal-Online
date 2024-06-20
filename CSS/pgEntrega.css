@@ -140,13 +140,6 @@ body {
     background-color: var(--bgColor);
     margin: 0 auto;
 }
-hr {
-    color: #000000;
-            background-color: #000000;
-            height: 1px; 
-            border: none;
-            
-}
 
 .titulo-entrega hr{
     margin-right: 440px;
@@ -169,7 +162,7 @@ hr {
     display:block; 
     padding:0; 
     margin: 10px 0; 
-    width:35%; 
+    width:78%; 
     height:2px; 
     background-color:black
 }
@@ -177,7 +170,7 @@ hr {
     display:block; 
     padding:0; 
     margin: 10px 0; 
-    width:20%; 
+    width: 41%; 
     height:2px; 
     background-color:black
 }
@@ -185,9 +178,13 @@ hr {
     display:block; 
     padding:0; 
     margin: 10px 0; 
-    width:43%; 
+    width:90%; 
     height:2px; 
     background-color:black
+}
+main span{
+    font-size: 1.1rem;
+    font-weight: 600;
 }
 /* INICIO DO FOOTER */
 .footerAll{
