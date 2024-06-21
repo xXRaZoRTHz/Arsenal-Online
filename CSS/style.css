@@ -31,10 +31,12 @@ header{
     height: 240px;
     color:var(--yellowColor) ;
     justify-content: space-between;
+    align-items: center;
 }
 .headertop{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 header img{
     height: 120px;
@@ -56,6 +58,7 @@ header form{
     margin-right: 150px;
     display: flex;
     margin-left: -140px;
+    align-items: center;
 }
 /* setar o tamanho da barra */
 .formPesquisar{
@@ -119,6 +122,7 @@ header nav{
 .navs{
     margin-left: 460px;
     margin-top: -20px;
+    align-items: center;
 }
 
 /* FINAL DO HEADER  */
@@ -196,6 +200,7 @@ main{
 }
 .linkCat{
     display: flex;
+    align-items: center;
 
 }
 /* FINAL DE CATEGORIAS */
@@ -301,6 +306,7 @@ main{
 }
 .cartoes{
     display: flex;
+    align-items: center;
 }
 .cartoes img {
     opacity: 1;
@@ -360,6 +366,7 @@ main{
     background-color:black
 }
 .cartoesPro{
+    align-items: center;
     display: flex;
     margin-top: 20px;
 }
@@ -441,6 +448,7 @@ main{
 /* FINAL DE PROMOÇÕES */
 /* INICIO DE LOJA FÍSICA */
 .loja{
+    align-items: center;
     margin-top: 200px;
 }
 .loja a{
