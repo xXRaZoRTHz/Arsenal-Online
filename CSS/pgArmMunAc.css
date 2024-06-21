@@ -43,7 +43,8 @@ main{
     -webkit-box-shadow: 0px 19px 93px -2px rgba(0,0,0,1);
     -moz-box-shadow: 0px 19px 93px -2px rgba(0,0,0,1);
     margin-top: -10px;
-    height: 2000px;
+    height: auto;
+    padding-bottom: 50px;
 }
   /* INICIO DO HEADER  */
 header{
@@ -164,6 +165,24 @@ header nav{
     height:2px; 
     background-color:black;
 }
+.linhaMun{
+    display:block; 
+    padding:0; 
+    margin-top: -15px; 
+    margin-left: 150px;
+    width:86%; 
+    height:2px; 
+    background-color:black;
+}
+.linhaAc{
+    display:block; 
+    padding:0; 
+    margin-top: -15px; 
+    margin-left: 170px;
+    width:84%; 
+    height:2px; 
+    background-color:black;
+}
 .abas{
     margin-left: 50px;
     line-height: 25px;
@@ -226,10 +245,19 @@ header nav{
     margin-bottom: -20px;
     padding-left:30px;
 }
+.cartoesBaixo img{
+    opacity: 1;
+    transition: transform 0.5s, opacity 0.5s;
+}
+.cartoesBaixo img:hover{
+    opacity: 1;
+    transform: scale(1.5);
+}
 .cartoesBaixo{
     display: flex;
     margin-left: 210px;
 }
+
 .cartoesPro{
     display: flex;
     margin-top: 20px;
@@ -273,7 +301,7 @@ header nav{
 .priceCut{
     text-decoration: line-through;
     color: var(--priceCut);
-    margin-bottom: -170px;
+    margin-bottom: -70px;
 }
 .cartaoPro{
     color: var(--NameItem);
@@ -287,7 +315,6 @@ header nav{
 }
 .cartaoPro p {
     z-index: 1;
-    margin-top: -40px;
 }
 .cartaoProImg{
     height: 120px;
@@ -297,7 +324,7 @@ header nav{
 }
 .cartaoPro span{
     color: var(--price);
-    margin-top: 120px;
+    margin-top: 50px;
 }
 .cartaoPro a{
     display: inline-block;
@@ -307,6 +334,136 @@ header nav{
     width: 90px;
     background-color:var(--ver);
     margin-top: 20px;
-    margin-bottom: -10px;
+    margin-bottom: -20px;
     padding-left:30px;
 }
+.linhaFinal{
+    display:block; 
+    padding:0; 
+    margin-top: 80px; 
+    margin-left: auto;
+    margin-right: auto;
+    width:90%; 
+    height:2px; 
+    background-color:black;
+}
+
+/* INICIO DO FOOTER */
+.footerAll{
+    background-color: black;
+    width:100%;
+    color: white;
+    font-weight: 300;
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center; 
+
+}
+footer h4{
+    font-size: 1.2rem;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.linhaInfo {
+    display:block; 
+    padding:0; 
+    margin: 10px 0; 
+    width:200px; 
+    height:2px; 
+    background-color:white;
+    margin-left: 5px;
+}
+.infoTitle{
+    display: flex;
+    margin-left: -15px;
+    align-items: center;
+    padding: 10px;
+
+}
+.footerInfo{
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.footerInfo a{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.footerInfo img{
+    margin-top: 30px;
+    height: 80px;
+}
+.footerCont{
+    margin-left: 200px;
+}
+.linhaCont {
+    display:block; 
+    padding:0; 
+    margin: 10px 0; 
+    width:200px; 
+    height:2px; 
+    background-color:white;
+    margin-left: 5px;
+}
+
+.contTitle{
+    display: flex;
+    margin-top: -25px;
+    margin-left: -30px;
+    align-items: center;
+    padding: 10px;
+
+}
+.linhaCont2 {
+    display:block; 
+    padding:0; 
+    margin: 10px 0; 
+    width:305px; 
+    height:2px; 
+    background-color:white;
+    margin-left: -20px;
+    
+}
+.footerCont i{
+    margin-left: -15px;
+    color: red;
+}
+.footerMet{
+    margin-left: 180px;
+}
+.metTitle{
+    display: flex;
+    margin-top: -25px;
+    margin-left: -30px;
+    align-items: center;
+    padding: 10px;
+}
+.linhaMet{
+    display:block; 
+    padding:0; 
+    margin: 10px 0; 
+    width:240px; 
+    height:2px; 
+    background-color:white;
+    margin-left: 5px;
+}
+.footerMet img{
+height: 140px;
+margin-left: 50px;
+}
+.copyr{
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    font-weight: 200;
+    font-size: 1.1rem;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+/* FINAL DO FOOTER */
