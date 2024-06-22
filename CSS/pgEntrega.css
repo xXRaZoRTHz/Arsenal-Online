@@ -231,6 +231,7 @@ footer a{
 
 }
 .footerInfo{
+    margin-top: 30px;
     margin-left: 50px;
 }
 .footerInfo a{
@@ -256,6 +257,7 @@ footer a{
 
 .contTitle{
     display: flex;
+    margin-top: -25px;
     margin-left: -30px;
     align-items: center;
     padding: 10px;
@@ -280,6 +282,7 @@ footer a{
 }
 .metTitle{
     display: flex;
+    margin-top: -25px;
     margin-left: -30px;
     align-items: center;
     padding: 10px;
