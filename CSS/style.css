@@ -254,8 +254,8 @@ main{
     border-radius: 30px;
     font-size: 1.4rem;
     font-weight: 300;
-    top: 1350px;
-    right: 550px;
+    margin-top: -150px;
+    margin-left: 520px; 
 }
 .textDest1 a{
     text-decoration: none;
@@ -278,8 +278,8 @@ main{
     border-radius: 30px;
     font-size: 1.6rem;
     font-weight: 300;
-    top: 1200px;
-    right: 215px;
+    margin-top: -300px;
+    margin-left: 940px;
 }
 .textDest3{
     position: absolute;
@@ -290,8 +290,8 @@ main{
     border-radius: 30px;
     font-size: 1.6rem;
     font-weight: 300;
-    top: 1420px;
-    right: 215px;
+    margin-top: -80px;
+    margin-left: 940px;
 }
 
 /* FINAL DE DESTAQUE */
@@ -477,8 +477,8 @@ main{
     display: block;
     font-size: 1.3rem;
     border-radius: 10px;
-    top:3333px;
-    right: 339px;
+    margin-top: -123px;
+    margin-left: 831px;;
 }
 .loja a:hover{
     background-color: rgb(255, 45, 45);
