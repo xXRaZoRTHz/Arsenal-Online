@@ -158,6 +158,7 @@ main{
     display:grid;
     justify-content: center;
     place-items: center;
+    margin-top: -8px;
 }
 /* INICIO DE CATEGORIAS */
 .categoriaTitle{
