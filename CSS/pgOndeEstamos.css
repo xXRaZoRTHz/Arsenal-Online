@@ -37,7 +37,7 @@ html{
 }
 main{
     margin: 0 auto;
-    width: 80%;
+    width: 1215px;
     box-shadow: 0px 19px 93px -2px rgba(0,0,0,1);
     -webkit-box-shadow: 0px 19px 93px -2px rgba(0,0,0,1);
     -moz-box-shadow: 0px 19px 93px -2px rgba(0,0,0,1);
@@ -64,15 +64,25 @@ main{
     height:2px; 
     background-color:black
 }
+.meio-pagina{
+    margin-left: auto;
+    margin-right: auto;
 
+}
 .meio-pagina p{
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 300px;
+    margin-right: 300px;
 }
 
 .localidade{
-  margin-left: 450px;
+
   margin-bottom: 100px;
+  align-items: center;
+  display:grid;
+ justify-content: center;
+ place-items: center;
+
+ 
 }
 
 .linha-final {

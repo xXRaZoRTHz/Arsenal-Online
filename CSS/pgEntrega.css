@@ -23,7 +23,7 @@
   }
   main{
     margin: 0 auto;
-    width: 70%;
+    width: 1215px;
     box-shadow: 0px 19px 93px -2px rgba(0,0,0,1);
     -webkit-box-shadow: 0px 19px 93px -2px rgba(0,0,0,1);
     -moz-box-shadow: 0px 19px 93px -2px rgba(0,0,0,1);
@@ -140,7 +140,14 @@ body {
     background-color: var(--bgColor);
     margin: 0 auto;
 }
-
+.bottton{
+    font-size: 2rem;
+    text-decoration: none;
+    color: red;
+    position: fixed;
+    right: 20px;
+    bottom:30px;   
+}
 .titulo-entrega hr{
     margin-right: 440px;
 }

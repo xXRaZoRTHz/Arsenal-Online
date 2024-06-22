@@ -6,6 +6,7 @@
     --NameItem:red;
     --ver:#D9D9D9;
     --priceCut:#8FD08E;
+    --botaoCartao:#676767;
 }
 *{
     padding: 0;
@@ -36,6 +37,12 @@ html{
     margin: 0 auto;
     
 }
+.cartao a:hover{
+    background-color:var(--botaoCartao) ;
+}
+.cartaoPro a:hover{
+    background-color:var(--botaoCartao) ;
+}
 main{
     margin: 0 auto;
     width: 80%;
@@ -47,6 +54,7 @@ main{
     padding-bottom: 50px;
 }
   /* INICIO DO HEADER  */
+
 header{
     background-color: black;
     height: 240px;
